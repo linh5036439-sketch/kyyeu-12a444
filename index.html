@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gallery</title>
+
+<style>
+body
+{
+    background-color: #fff6f6;
+    font-family: Arial;
+}
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 15px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.big{
+    grid-row: 1 / 4;   
+}
+
+.top{
+    grid-column: 2 / 4; 
+}
+</style>
+</head>
+
+<body>
+<h2 class="title">NƠI LƯU GIỮ KỶ NIỆM</h2>
+<div class="gallery">
+    <img src="https://i.pinimg.com/736x/fd/ff/31/fdff31981417fbeabfe72337d38caae4.jpg" class="big">
+    <img src="https://i.pinimg.com/736x/7c/d8/01/7cd8017155c4cd2210d0abdfb4173b78.jpg" class="top">
+    <img src="https://i.pinimg.com/1200x/4b/7b/4a/4b7b4a702cb84d9ebeefc02600f922aa.jpg">
+    <img src="https://i.pinimg.com/1200x/dd/68/99/dd689965678eb3bc41d22bc50baac1c7.jpg">
+    <img src="https://i.pinimg.com/1200x/b2/67/23/b26723c8a3c138b02d670595e25db2c2.jpg">
+    <img src="https://i.pinimg.com/1200x/52/61/f0/5261f0bfd0af012a00d788e6d53d346e.jpg">
+</div>
+
+</body>
+</html>
